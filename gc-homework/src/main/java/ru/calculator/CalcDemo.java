@@ -1,4 +1,4 @@
-package ru.calculator;
+package main.java.ru.calculator;
 
 
 /*
