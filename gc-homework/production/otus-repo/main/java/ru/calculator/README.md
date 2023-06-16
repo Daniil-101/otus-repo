@@ -1,8 +1,3 @@
-<style>
-   .text {
-    text-align:  center;
-   }
-  </style>
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="__0"></a>Домашняя работа:</h1>
 <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="____1"></a>Определение нужного размера хипа</h2>
 <br>
@@ -22,7 +17,7 @@
 <h3 class="has-line-data" data-line-start="8" data-line-end="11" id="Определение оптимального размера хипа">Задача1:</h3>
 <p> <b>Определите оптимальный размер хипа</b>, т.е. размер, превышение которого,<br>
 не приводит к сокращению времени выполнения приложения.</p>
-<h3 class = "text">            G1
+<h3 align="center">            G1
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="15" data-line-end="18">-Xms256m     |<br>
@@ -50,7 +45,7 @@
 <p class="has-line-data" data-line-start="36" data-line-end="38">-Xms256m     |<br>
 -Xmx2048m    | spend msec:15454, sec:15</p>
 <hr>
-<h3 class = "text">     Shenandoah
+<h3 align="center">     Shenandoah
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="44" data-line-end="47">-Xms256m             |<br>
@@ -78,7 +73,7 @@
 <p class="has-line-data" data-line-start="65" data-line-end="67">-Xms256m     |<br>
 -Xmx2048m    | spend msec:9368, sec:9</p>
 <hr>
-<h3 class = "text">    Serial Collector
+<h3 align="center">    Serial Collector
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="73" data-line-end="76">-Xms256m         |<br>
@@ -106,7 +101,7 @@
 <p class="has-line-data" data-line-start="94" data-line-end="96">-Xms256m     |<br>
 -Xmx2048m    | spend msec:17930, sec:17</p>
 <hr>
-<h3 class = "text">    Parallel Collector
+<h3 align="center">    Parallel Collector
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="102" data-line-end="105">-Xms256m           |<br>
@@ -134,14 +129,14 @@
 <p class="has-line-data" data-line-start="123" data-line-end="125">-Xms256m     |<br>
 -Xmx2048m    | spend msec:26707, sec:26</p>
 <hr>
-<h3 class = "text">       CMS
+<h3 align="center">       CMS
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="130" data-line-end="133">Unrecognized VM option ‘UseConcMarkSweepGC’<br>
 Error: Could not create the Java Virtual Machine.<br>
 Error: A fatal exception has occurred. Program will exit.</p>
 <hr>
-<h3 class = "text">       Z
+<h3 align="center">       Z
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="139" data-line-end="142">-Xms256m    |<br>
@@ -179,7 +174,7 @@ Error: A fatal exception has occurred. Program will exit.</p>
 Т.е. не меняя логики работы (но изменяя код), сделайте так, чтобы приложение работало
 быстро с минимальным хипом. Повторите измерения времени выполнения программы<br>
 для тех же значений размера хипа.</p>
-<h3 class = "text">       G1
+<h3 align="center">       G1
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="180" data-line-end="183">-Xms256m     |<br>
@@ -195,7 +190,7 @@ Error: A fatal exception has occurred. Program will exit.</p>
 <p class="has-line-data" data-line-start="190" data-line-end="192">-Xms2048m    |<br>
 -Xmx2048m    | spend msec:2412, sec:2</p>
 <hr>
-<h3 class = "text">   Shenandoah
+<h3 align="center">   Shenandoah
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="197" data-line-end="200">-Xms256m             |<br>
@@ -211,7 +206,7 @@ Error: A fatal exception has occurred. Program will exit.</p>
 <p class="has-line-data" data-line-start="207" data-line-end="209">-Xms2048m    |<br>
 -Xmx2048m    | spend msec:1954, sec:1</p>
 <hr>
-<h3 class = "text">    Serial Collector
+<h3 align="center">    Serial Collector
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="214" data-line-end="217">-Xms256m         |<br>
@@ -227,7 +222,7 @@ Error: A fatal exception has occurred. Program will exit.</p>
 <p class="has-line-data" data-line-start="224" data-line-end="226">-Xms2048m    |<br>
 -Xmx2048m    | spend msec:2291, sec:2</p>
 <hr>
-<h3 class = "text">    Parallel Collector
+<h3 align="center">    Parallel Collector
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="231" data-line-end="234">-Xms256m           |<br>
@@ -243,7 +238,7 @@ Error: A fatal exception has occurred. Program will exit.</p>
 <p class="has-line-data" data-line-start="241" data-line-end="243">-Xms2048m    |<br>
 -Xmx2048m    | spend msec:2138, sec:2</p>
 <hr>
-<h3 class = "text">       Z
+<h3 align="center">       Z
 </h3>
 <hr>
 <p class="has-line-data" data-line-start="248" data-line-end="251">-Xms256m    |<br>
